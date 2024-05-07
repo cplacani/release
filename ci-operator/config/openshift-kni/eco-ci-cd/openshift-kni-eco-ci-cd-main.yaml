@@ -11,12 +11,12 @@ resources:
       cpu: 100m
       memory: 200Mi
 tests:
-- as: eco-gosystem
+- as: eco-ci-cd
   cluster: build05
   cron: 00 12 * * 1
   steps:
-    workflow: telcov10n-functional
+    workflow: telcov10n-eco-ci-cd
 zz_generated_metadata:
   branch: main
   org: openshift-kni
-  repo: eco-gosystem
+  repo: eco-ci-cd

@@ -1,5 +1,5 @@
 {
-	"path": "telcov10n/functional/telcov10n-functional-workflow.yaml",
+	"path": "telcov10n/eco-ci-cd/telcov10n-eco-ci-cd-workflow.yaml",
 	"owners": {
 		"approvers": [
 			"natifridman",

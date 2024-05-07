@@ -8,19 +8,19 @@ periodics:
   extra_refs:
   - base_ref: main
     org: openshift-kni
-    repo: eco-gosystem
+    repo: eco-ci-cd
   labels:
     ci-operator.openshift.io/cluster: build05
     ci.openshift.io/generator: prowgen
     pj-rehearse.openshift.io/can-be-rehearsed: "true"
-  name: periodic-ci-openshift-kni-eco-gosystem-main-eco-gosystem
+  name: periodic-ci-openshift-kni-eco-ci-cd-main-eco-ci-cd
   spec:
     containers:
     - args:
       - --gcs-upload-secret=/secrets/gcs/service-account.json
       - --image-import-pull-secret=/etc/pull-secret/.dockerconfigjson
       - --report-credentials-file=/etc/report/credentials
-      - --target=eco-gosystem
+      - --target=eco-ci-cd
       command:
       - ci-operator
       image: ci-operator:latest

@@ -1,5 +1,5 @@
 {
-	"path": "telcov10n/functional/telcov10n-functional-workflow.yaml",
+	"path": "telcov10n/slcm/tests/telcov10n-slcm-tests-ref.yaml",
 	"owners": {
 		"approvers": [
 			"natifridman",
